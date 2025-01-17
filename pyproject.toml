@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "longcat-msg"
+version = "0.1.0"
+description = "Longcatify your slack messages for fun and profit!"
+authors = ["Drew O'Kane <drew.okane@autodesk.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
